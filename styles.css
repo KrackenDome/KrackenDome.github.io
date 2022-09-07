@@ -16,6 +16,8 @@ font-style: bold;
 font-size: xx-large;
 }
 
+table,th,tr,td {border:1.5px solid white}
+
 h5 {
     color: whitesmoke;
     text-decoration-line: underline;
