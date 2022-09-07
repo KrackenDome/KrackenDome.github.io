@@ -6,12 +6,12 @@
     <title>Home</title>
     <link href="styles.css" rel="stylesheet" />
     <style>
-        ul {
+        .ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: gray;
+            background-color: rgb(8, 2, 13);
             position: -webkit-sticky;
             position: sticky;
             top: 0;
@@ -37,35 +37,78 @@
             background-color: purple;
             color: white;
         }
+
+        .sidenav {
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+
+            left: 0;
+            background-color: rgb(8, 2, 13);
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+        }
+        .sidenav a:hover {
+  color: #f1f1f1;
+}
+
     </style>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li class="active"> <a href="index.html"> Home
+            <ul class="ul">
+                <li class="li active"> <a href="index.html"> Home
 
                 </li>
 
-                <li>
+                <li class="li1">
                     <a href="profile.html"> Profile</a>
                 </li>
 
-                <li>
+                <li class="li2">
                     <a href="dashboard.html"> Dashboard</a>
                 </li>
 
-                <li>
+                <li class="li3">
                     <a href="faq.html"> FAQ</a>
                 </li>
 
-                <li>
+                <li class="li4">
                     <a href="blog.html">Blog</a>
                 </li>
 
             </ul>
         </nav>
+        <sidebar>
+            <ul>
+                <div class="sidenav">
+                    <a
+                        href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/EN/6.-Regulations-Study-Programmes/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf">The
+                        HZ-HBO-ICT CER</a>
+                    <a
+                        href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">IR
+                        for the HBO-ICT program</a>
+                    <a
+                        href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">HBO-ICT
+                        Teams</a>
+                    <a href="https://github.com/HZ-HBO-ICT">HZ-HBO-ICT Github</a>
+                    
+                    <a href="https://learn.hz.nl/course/view.php?id=23602#section-3">Learn enviornment</a>
+                </div>
+                <div class="main">
+            </ul>
+        </sidebar>
         <h1>Home page</h1>
 </body>
 
