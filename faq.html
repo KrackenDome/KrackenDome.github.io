@@ -6,6 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FAQ</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:grey;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li:hover {
+            background-color: plum;
+        }
+
+        .active {
+            background-color: purple;
+            color: white;
+        }
+    </style>
     <link href="styles.css" rel="stylesheet" />
 </head>
 
@@ -14,16 +47,17 @@
         <nav>
             <ul>
                 <li>
-                    <a href="index.html"> Go back to home </a>
+                    <a href="index.html"> Home </a>
                 </li>
                 <li>
-                    <a href="profile.html"> Go to my profile</a>
+                    <a href="profile.html"> Profile</a>
                 </li>
                 <li>
-                    <a href="dashboard.html">Go to dashboard</a>
+                    <a href="dashboard.html">Dashboard</a>
                 </li>
+                <li class="active"><a href="faq.html">FAQ</a></li>
                 <li>
-                    <a href="blog.html">Go to blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
             </ul>
         </nav>
