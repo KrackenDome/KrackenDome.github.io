@@ -2,15 +2,64 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
- 
+<style type=text/css>
+    body {
+        height: 125vh;
+        margin-top: 80px;
+        padding: 30px;
+        background-size: cover;
+        font-family: sans-serif;
+    }
+
+    header {
+        background-color: orange;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 5px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 25px 0 black;
+    }
+
+    header * {
+        display: inline;
+    }
+
+    header li {
+        margin: 20px;
+    }
+
+    header li a {
+        color: blue;
+        text-decoration: none;
+    }
+</style>
+
 <body>
     <header>
         <nav>
-            <a href="profile.html"> Go to my profile</a>
+            <ul>
+                <li>
+                    <a href="profile.html"> Go to my profile</a>
+                </li>
+                <li>
+                    <a href="dashboard.html"> Go to dashboard</a>
+                </li>
+                <li>
+                    <a href="faq.html">Go to FAQ</a>
+                </li>
+                <li>
+                    <a href="blog.html">Go to blog</a>
+                </li>
+            </ul>
         </nav>
-    </header>
+        <h1>Home page</h1>
 </body>
 
 
