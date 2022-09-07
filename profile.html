@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My profile</title>
   <style>
-    .ul {
+    .horizontal {
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -20,19 +20,11 @@
       top: 0;
     }
 
-    .li,
-    .li1,
-    .li2,
-    .li3,
-    .li4 {
+    .horizontal li {
       float: left;
     }
 
-    .li a,
-    .li1 a,
-    .li2 a,
-    .li3 a,
-    .li4 a {
+    .horizontal li a {
       display: block;
       color: black;
       text-align: center;
@@ -40,11 +32,7 @@
       text-decoration: none;
     }
 
-    .li,
-    .li1,
-    .li2,
-    .li3,
-    .li4:hover {
+    .horizontal li:hover {
       background-color: plum;
     }
 
@@ -60,20 +48,20 @@
 <body>
   <header>
     <nav>
-      <ul class="ul">
+      <ul class="horizontal">
 
-        <li class="li">
+        <li>
           <a href="index.html"> Home</a>
         </li>
         <li class="li1 active"><a href="profile.html">Profile</li>
 
-        <li class="li4">
+        <li>
           <a href="dashboard.html">Dashboard</a>
         </li>
-        <li class="li2">
+        <li>
           <a href="faq.html">FAQ</a>
         </li>
-        <li class="li3">
+        <li>
           <a href="blog.html">Blog</a>
         </li>
       </ul>
@@ -81,11 +69,11 @@
     <main>
       <article>
         <h1>Personal information</h1>
-        <ul>
+        <ul class="pinfo">
 
-          <li class="name"> Name: Vesper Velkova </li>
+          <li> Name: Vesper Velkova </li>
 
-          <li class="age"> Age: 20 </li>
+          <li> Age: 20 </li>
 
         </ul>
 
@@ -93,40 +81,40 @@
 
         <h4>Leasure</h4>
 
-        <ul>
+        <ul class="leasure">
 
-          <li class="game"> Gaming </li>
+          <li> Gaming </li>
 
           <img src="controler.jpg" alt="hands holding a controller" class="controler">
 
-          <li class="read"> Reading </li>
+          <li> Reading </li>
 
           <img src="books.jpg" alt="an open book" class="books">
 
-          <li class="write">Writing </li>
+          <li>Writing </li>
 
           <img src="writing.jpg" alt="a person writing" class="writing">
 
-          <li class="draw">Drawing and painting</li>
+          <li>Drawing and painting</li>
 
           <img src="painting.jpg" alt="a person drawing" class="painting">
 
-          <li class="walk">Going on walks</li>
+          <li>Going on walks</li>
 
           <img src="walking.jpg" alt="someone walking" class="walking">
 
-          <li class="music">Listening to/ making music</li>
+          <li>Listening to/ making music</li>
 
           <img src="music.jpg" alt="grandma rocking out" class="headphones">
 
-          <li class="fitness">Working out</li>
+          <li>Working out</li>
 
           <img src="workingout.jpg" alt="harol working out" class="harold">
 
           <h4>Student job</h4>
 
-          <ul>
-            <li class="unemployed">Unemployed at the moment (｡•́︿•̀｡) </li>
+          <ul class="job">
+            <li>Unemployed at the moment (｡•́︿•̀｡) </li>
           </ul>
 
       </article>

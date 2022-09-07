@@ -7,22 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>blog</title>
     <style>
-        ul {
+        <style>.horizontal {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color:rgb(8, 2, 13);
+            background-color: rgb(8, 2, 13);
             position: -webkit-sticky;
             position: sticky;
             top: 0;
         }
 
-        li {
+        .horizontal li {
             float: left;
         }
 
-        li a {
+        .horizontal li a {
             display: block;
             color: black;
             text-align: center;
@@ -30,7 +30,7 @@
             text-decoration: none;
         }
 
-        li:hover {
+        .horizontal li:hover {
             background-color: plum;
         }
 
@@ -46,7 +46,7 @@
 
     <header>
         <nav>
-            <ul>
+            <ul class="horizontal">
                 <li>
                     <a href="index.html"> Home</a>
                 </li>
@@ -63,6 +63,9 @@
             </ul>
         </nav>
         <h1>Blog</h1>
+        <h5>Study choice</h5>
+        <h5>Personal SWOT analysis</h5>
+        <h5>Programming experience</h5>
 </body>
 
 </html>

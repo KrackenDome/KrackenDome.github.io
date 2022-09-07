@@ -4,25 +4,33 @@ body {
 
 h1,
 h2,
-h4 {
+h3,
+h4,
+p
+{
+color: whitesmoke;
+text-decoration-line: underline;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+font-style: bold;
+font-size: xx-large;
+}
+
+h5 {
     color: whitesmoke;
     text-decoration-line: underline;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    font-style: bold;
-    font-size: xx-large;
+    font-style: italic;
+    font-size: large;
 }
 
-.name,
-.age,
-.game,
-.read,
-.write,
-.draw,
-.walk,
-.music,
-.fitness,
-.unemployed {
+
+
+
+.pinfo li,
+.leasure li,
+.job li {
     color: whitesmoke;
     text-align: center;
     text-decoration-line: underline;
@@ -45,4 +53,34 @@ h4 {
     height: 95px
 }
 
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(8, 2, 13);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
+.horizontal li {
+    float: left;
+}
+
+.horizontal li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal li:hover {
+    background-color: plum;
+}
+
+.active {
+    background-color: purple;
+    color: white;
+}
