@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+p
+{
+color: whitesmoke;
+text-decoration-line: underline;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+font-style: bold;
+font-size: xx-large;
+}
+
+table,th,tr,td {border:1.5px solid white}
+
+h5 {
+    color: whitesmoke;
+    text-decoration-line: underline;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: large;
+}
+
+
+
+
+.pinfo li,
+.leasure li,
+.job li {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+.books,
+.harold,
+.controler,
+.writing,
+.painting,
+.walking,
+.headphones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 95px
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(8, 2, 13);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.horizontal li {
+    float: left;
+}
+
+.horizontal li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal li:hover {
+    background-color: plum;
+}
+
+.active {
+    background-color: purple;
+    color: white;
+}
