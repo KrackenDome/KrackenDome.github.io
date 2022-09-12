@@ -1,6 +1,6 @@
 /* header specificatons */
 body {
-    background-color: black;
+    background: linear-gradient(130deg, rgb(44, 222, 242) 0.00%, rgb(156, 43, 171) 50.19%, rgb(39, 43, 44) 100.00%);
 }
 
 h1,
@@ -55,9 +55,10 @@ h5 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(8, 2, 13);
+    background-color: rgb(39, 43, 44);
     position: sticky;
     top: 0;
+    border-radius: 25%;
 }
 
 .horizontal li {
@@ -90,6 +91,7 @@ h5 {
     font-size: 16px;
     border: none;
     font-family: "garamond", garamond, serif;
+    border-radius: 20%;
 }
 
 .dropdown {
@@ -101,7 +103,7 @@ h5 {
 .content {
     display: none;
     position: absolute;
-    background-color: lightslategray;
+    background-color:rgb(39, 43, 44);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -126,15 +128,27 @@ h5 {
     background-color: plum;
 }
 
-/* index page */
+aside {
+    display: block;
+    float: right;
+    right: 0;
+    margin-right: 0;
+
+}
+
+/* index page*/
 #par1 {
-    text-align: left;
+    width: 25%;
+    display: block;
+    float: left;
     color: white;
     overflow: auto;
 }
 
 #par2 {
-    text-align: right;
+    width: 25%;
+    display: block;
+    float: right;
     color: white;
     overflow: auto;
 
@@ -155,21 +169,14 @@ h5 {
     margin-left: auto;
     width: 150px;
     height: 95px;
-    overflow:hidden
+    overflow: hidden
 }
-
-/* profile page */
-
 /* dashboard page */
-table,
-th,
-tr,
-td {
-    border: 1px solid white;
+table {
+    border: 2px solid wheat;
     border-radius: 10px;
-    color: whitesmoke;
     text-align: center;
-    background-color: purple;
+    background-color: rgb(62, 10, 111);
 }
 
 .center {
@@ -177,7 +184,28 @@ td {
     margin-right: auto;
 }
 
+#head td {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#body tr,
+td {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(62, 10, 111);
+}
+
 /* FAQ page */
-#qna li, p {color: white;}
+#qna li,
+p {
+    color: white;
+}
 
 /* blog page */
