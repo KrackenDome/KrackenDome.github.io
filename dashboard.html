@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="dashboard stylesheet" href="/css/dashboard.css">
 </head>
 
 <body>
     <header>
+
         <!--Horizontal navigation-->
         <nav>
             <ul class="horizontal">
@@ -29,6 +31,7 @@
                 </li>
             </ul>
         </nav>
+
         <!--Dropdown navigation-->
         <aside>
             <div class="dropdown">
@@ -95,17 +98,10 @@
                     <td>N/A</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">3</td>
-                    <td>Framework Development 1</td>
-                    <td>5</td>
-                    <td>Case study exam </td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <!--Q3-->
-                    <td>Framework Project 1</td>
-                    <td>7.5</td>
-                    <td>Criterium based interview <br> Assignment <br> Case study exam </td>
+                    <td>3</td>
+                    <td>Framework Development 1 <br> Framework Project 1</td>
+                    <td>5 <br> 7.5</td>
+                    <td>Case study exam <br> Criterium based interview <br> Assignment <br> Case study exam</td>
                     <td>N/A</td>
                 </tr>
                 <tr>
@@ -132,7 +128,14 @@
                 </tr>
             </tbody>
         </table>
-    </main>
 
+        <!--Progress bar-->
+        <h1>NBSA</h1>
+        <p>My progress</p>
+        <div class="progress">
+            <div class="progress__bar"></div>
+        </div>
+    </main>
 </body>
+
 </html>

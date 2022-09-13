@@ -1,0 +1,21 @@
+h2,
+h3,
+h4 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: bold;
+    font-size: x-large;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

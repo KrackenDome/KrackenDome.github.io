@@ -1,0 +1,36 @@
+.pinfo li,
+.leasure li,
+.job li {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+.books,
+.harold,
+.controler,
+.writing,
+.painting,
+.walking,
+.headphones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 95px;
+}
+
+#footer {
+
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: rgba(128, 128, 128, 0.158);
+    color: white;
+    text-align: center;
+}
