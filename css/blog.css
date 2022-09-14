@@ -19,3 +19,49 @@ a {
     color: white;
     text-decoration: none;
 }
+
+#sc {
+    background-color: rgba(109, 109, 109, 0.37);
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 25%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+#swot {
+    background-color: rgba(109, 109, 109, 0.37);
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 25%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+#prog{
+    background-color: rgba(109, 109, 109, 0.37);
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 25%;
+    display: block;
+    position: relative;
+    margin: 0 auto; 
+}
+#feed{
+    background-color: rgba(109, 109, 109, 0.37);
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 25%;
+    display: block;
+    position: relative;
+    margin: 0 auto; 
+}

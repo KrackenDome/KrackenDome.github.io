@@ -1,4 +1,28 @@
-#qna li,
+
 p {
+    padding: 4px;
+    width: 200px;
     color: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+details > summary {
+    padding: 4px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  details > p {
+    padding: 4px;
+    margin: 0px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
