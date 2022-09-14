@@ -10,7 +10,7 @@ p {
 }
 details > summary {
     padding: 4px;
-    width: 200px;
+    width: 300px;
     border: none;
     cursor: pointer;
     color: white;
