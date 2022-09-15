@@ -18,6 +18,22 @@ h1 {
 
 }
 
+#h{ text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: bold;
+    font-size: x-large;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;}
+    
+#lorem {
+    text-align: center;
+    color: white;
+    display: block;
+    width: 25% margin-left: auto;
+    margin-right: auto;
+}
+
 /* navigation bar */
 .horizontal {
     list-style-type: none;
