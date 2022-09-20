@@ -30,7 +30,8 @@ h1 {
     text-align: center;
     color: white;
     display: block;
-    width: 25% margin-left: auto;
+    width: 25% 
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -69,7 +70,17 @@ h1 {
     color: white;
     border-radius: 1rem;
 }
+#logo img {position: absolute;
+    margin-right: 150px;
+    margin-left:600px;
+    margin-top: -40px;
+    padding: 20px;
+    z-index: 2;
+    overflow: hidden;
+    height: 90px;
+    width: auto;
 
+}
 /* dropdown menu */
 .button {
     background-color: rgb(96, 19, 96);
@@ -80,6 +91,7 @@ h1 {
     font-family: "garamond", garamond, serif;
     border-radius: 1rem;
     float: right;
+    margin-top: -65px;
 }
 
 .dropdown {
@@ -96,6 +108,8 @@ h1 {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 1rem;
+    margin-left: -44.5px;
+    margin-top: -20px;
 
 }
 
@@ -122,6 +136,7 @@ aside {
     display: block;
     float: right;
     right: 0;
-    margin-right: 0;
+    margin-right: 10px;
+   
 
 }
