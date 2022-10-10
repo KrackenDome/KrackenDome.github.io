@@ -1,0 +1,189 @@
+/* Strenghts */
+.a-table {
+    width: 20%;
+    height: 30%;
+    margin-left: 40%;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgba(109, 109, 109, 0.37);
+    width: 0.3px solid white;
+
+}
+
+.a-table ul {
+    list-style-type: none;
+}
+
+.a-column li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.a-row li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+/* Weaknesses */
+.b-table {
+    width: 20%;
+    height: 30%;
+    margin-left: 40%;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgba(109, 109, 109, 0.37);
+    width: 0.3px solid white;
+
+}
+
+.b-table ul {
+    list-style-type: none;
+}
+
+.b-column li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.b-row li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+/* Opportunities */
+.c-table {
+    width: 20%;
+    height: 30%;
+    margin-left: 40%;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgba(109, 109, 109, 0.37);
+    width: 0.3px solid white;
+
+}
+
+.c-table ul {
+    list-style-type: none;
+}
+
+.c-column li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.c-row li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+/* Threats */
+.d-table {
+    width: 20%;
+    height: 30%;
+    margin-left: 40%;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgba(109, 109, 109, 0.37);
+    width: 0.3px solid white;
+}
+
+.d-table ul {
+    list-style-type: none;
+}
+
+.d-column li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.d-row li {
+    padding: 0px;
+    margin: 0;
+    display: inline-table;
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    background: rgba(109, 109, 109, 0.37);
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}

@@ -5,7 +5,11 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+  
 
 h1 {
     color: whitesmoke;
@@ -21,16 +25,16 @@ h1 {
 #h{ text-align: center;
     font-family: "Times New Roman", Times, serif;
     font-style: bold;
-    font-size: x-large;
+    font-size: xx-large;
     color: white;
     text-decoration-line: underline;
-    text-decoration-style: wavy;}
+}
     
 #lorem {
     text-align: center;
     color: white;
     display: block;
-    width: 25% 
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,6 +49,7 @@ h1 {
     position: sticky;
     top: 0;
     border-radius: 1rem;
+
 }
 
 .horizontal li {
@@ -58,6 +63,8 @@ h1 {
     padding: 14px 16px;
     text-decoration: none;
     font-family: "garamond", garamond, serif;
+    font-style: italic;
+    font-size: 1.1rem;
 }
 
 .horizontal li:hover {
@@ -70,15 +77,16 @@ h1 {
     color: white;
     border-radius: 1rem;
 }
-#logo img {position: absolute;
-    margin-right: 150px;
-    margin-left:600px;
+#logo img { position: absolute;
+    margin-right: 11%;
+    margin-left: 45%;
     margin-top: -40px;
     padding: 20px;
-    z-index: 2;
+    z-index: 20;
     overflow: hidden;
     height: 90px;
     width: auto;
+    border: none;
 
 }
 /* dropdown menu */
@@ -89,9 +97,12 @@ h1 {
     font-size: 16px;
     border: none;
     font-family: "garamond", garamond, serif;
+    font-style: italic;
     border-radius: 1rem;
     float: right;
     margin-top: -65px;
+    margin-right: -9px;
+    font-size: 1.1rem;
 }
 
 .dropdown {
@@ -120,6 +131,8 @@ h1 {
     display: block;
     text-align: center;
     font-family: "garamond", garamond, serif;
+    font-style: italic;
+    font-size: 1.1rem;
 
 }
 
@@ -139,4 +152,23 @@ aside {
     margin-right: 10px;
    
 
+}
+
+/*Footer*/
+footer {
+    position:static;
+    overflow: hidden;
+    display: block;
+   margin-top: auto; 
+   margin: 0;
+   padding: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color:  rgb(39, 43, 44);;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;    
 }

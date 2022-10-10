@@ -1,28 +1,75 @@
-
 p {
-    padding: 4px;
-    width: 200px;
-    color: white;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  padding: 4px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
 }
-details > summary {
-    padding: 4px;
-    width: 300px;
-    border: none;
-    cursor: pointer;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  details > p {
-    padding: 4px;
-    margin: 0px;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+
+/*Questions*/
+details>summary {
+  padding: 4px;
+  width: 300px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  border: 0.3px solid white;
+  background-color: rgba(109, 109, 109, 0.37);
+  border-radius: 1rem;
+  overflow: auto;
+  width: 35%;
+  position: relative;
+  margin: 0 auto;
+}
+
+/*Answers*/
+details>p {
+  padding: 4px;
+  margin: 0px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: rgba(109, 109, 109, 0.37);
+  border-radius: 1rem;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  width: 35%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+/* Images */
+#questionMark {
+  display: block;
+  margin-right: auto;
+  margin-left: 20%;
+  width: 10%;
+  height: 8%;
+  overflow: hidden;
+}
+
+#exclamationMark {
+  display: block;
+  margin-right: 20%;
+  margin-left: auto;
+  margin-top: -9%;
+  width: 10%;
+  height: 8%;
+  overflow: hidden;
+}

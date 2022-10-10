@@ -6,13 +6,15 @@ h4 {
     font-style: bold;
     font-size: x-large;
     color: white;
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
+    font-size: 1.4rem;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
 }
 
 p {
     text-align: center;
     color: white;
+    font-size: 1.2rem;
 }
 
 a {
@@ -20,8 +22,10 @@ a {
     text-decoration: none;
 }
 
-#sc {
+/*Study choice*/
+#study {
     background-color: rgba(109, 109, 109, 0.37);
+    border: 0.3px solid white;
     border-radius: 1rem;
     margin: 0;
     padding: 0;
@@ -30,10 +34,14 @@ a {
     display: block;
     position: relative;
     margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
 }
 
+/*Swot*/
 #swot {
     background-color: rgba(109, 109, 109, 0.37);
+    border: 0.3px solid white;
     border-radius: 1rem;
     margin: 0;
     padding: 0;
@@ -42,9 +50,14 @@ a {
     display: block;
     position: relative;
     margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
 }
+
+/*Programmign*/
 #prog{
     background-color: rgba(109, 109, 109, 0.37);
+    border: 0.3px solid white;
     border-radius: 1rem;
     margin: 0;
     padding: 0;
@@ -53,9 +66,14 @@ a {
     display: block;
     position: relative;
     margin: 0 auto; 
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
 }
+
+/*Feedback*/
 #feed{
     background-color: rgba(109, 109, 109, 0.37);
+    border: 0.3px solid white;
     border-radius: 1rem;
     margin: 0;
     padding: 0;
@@ -64,4 +82,16 @@ a {
     display: block;
     position: relative;
     margin: 0 auto; 
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
 }
+/* Read more */
+.readMore{font-family: "Times New Roman", Times, serif;
+font-style:oblique;
+color: white;
+text-decoration: underline;
+font-size: 1.5rem;
+
+}
+
+
