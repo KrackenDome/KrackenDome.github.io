@@ -31,12 +31,21 @@ h1 {
 }
     
 #lorem {
+    color: whitesmoke;
     text-align: center;
-    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    background-color: rgba(109, 109, 109, 0.37);
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 35%;
     display: block;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    margin: 0 auto;
 }
 
 /* navigation bar */

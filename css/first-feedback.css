@@ -1,0 +1,17 @@
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    background-color: rgba(109, 109, 109, 0.37);
+    border: 0.3px solid white;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 35%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
