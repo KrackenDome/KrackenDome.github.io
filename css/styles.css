@@ -165,11 +165,10 @@ aside {
 
 /*Footer*/
 footer {
-    position:static;
     overflow: hidden;
     display: block;
    margin-top: auto; 
-   margin: 0;
+   margin: 5rem 0 0 0;
    padding: 0;
     bottom: 0;
     width: 100%;
