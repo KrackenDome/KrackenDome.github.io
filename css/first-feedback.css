@@ -1,11 +1,10 @@
 p {
-    color: whitesmoke;
+    color: rgb(229, 228, 228);
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    font-style: italic;
+    font-family: "Playball", sans-serif;
     font-size: 1.3rem;
-    background-color: rgba(109, 109, 109, 0.37);
-    border: 0.3px solid white;
+    background-color: rgba(109, 109, 109, 0.20);
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
     margin: 0;
     padding: 0;

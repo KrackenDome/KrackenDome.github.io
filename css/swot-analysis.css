@@ -5,8 +5,7 @@
     margin-left: 40%;
     border-radius: 1rem;
     text-align: center;
-    background-color: rgba(109, 109, 109, 0.37);
-    width: 0.3px solid white;
+    width: 0.3px solid rgb(229, 228, 228);
 
 }
 
@@ -18,32 +17,30 @@
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.5rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }
 
 .a-row li {
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.3rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }
 
 /* Weaknesses */
@@ -53,8 +50,7 @@
     margin-left: 40%;
     border-radius: 1rem;
     text-align: center;
-    background-color: rgba(109, 109, 109, 0.37);
-    width: 0.3px solid white;
+    width: 0.3px solid rgb(229, 228, 228);
 
 }
 
@@ -66,32 +62,30 @@
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.5rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }
 
 .b-row li {
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.3rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }
 
 /* Opportunities */
@@ -101,8 +95,7 @@
     margin-left: 40%;
     border-radius: 1rem;
     text-align: center;
-    background-color: rgba(109, 109, 109, 0.37);
-    width: 0.3px solid white;
+    width: 0.3px solid rgb(229, 228, 228);
 
 }
 
@@ -114,32 +107,30 @@
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.5rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }
 
 .c-row li {
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.3rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }
 /* Threats */
 .d-table {
@@ -148,8 +139,7 @@
     margin-left: 40%;
     border-radius: 1rem;
     text-align: center;
-    background-color: rgba(109, 109, 109, 0.37);
-    width: 0.3px solid white;
+    width: 0.3px solid rgb(229, 228, 228);
 }
 
 .d-table ul {
@@ -160,30 +150,28 @@
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.5rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }
 
 .d-row li {
     padding: 0px;
     margin: 0;
     display: inline-table;
-    border: 0.3px solid white;
+    border: 0.3px solid rgb(229, 228, 228);
     border-radius: 1rem;
-    background: rgba(109, 109, 109, 0.37);
+    background: rgba(109, 109, 109, 0.20);
     width: 60%;
     height: fit-content;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playball", sans-serif;
     font-size: 1.3rem;
-    font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(229, 228, 228);
 }

@@ -1,14 +1,13 @@
 p {
   padding: 4px;
   width: 200px;
-  color: white;
+  color: rgb(229, 228, 228);
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-size: 1.3rem;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
+  font-family: "Playball", sans-serif;
 }
 
 /*Questions*/
@@ -17,14 +16,13 @@ details>summary {
   width: 300px;
   border: none;
   cursor: pointer;
-  color: white;
+  color:rgb(229, 228, 228);
   margin-left: auto;
   margin-right: auto;
   font-size: 1.3rem;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  border: 0.3px solid white;
-  background-color: rgba(109, 109, 109, 0.37);
+  font-family: "Playball", sans-serif;
+  border: 0.3px solidrgb(229, 228, 228);
+  background-color: rgba(109, 109, 109, 0.20);
   border-radius: 1rem;
   overflow: auto;
   width: 35%;
@@ -40,9 +38,8 @@ details>p {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.3rem;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  background-color: rgba(109, 109, 109, 0.37);
+  font-family: "Playball", sans-serif;
+  background-color: rgba(109, 109, 109, 0.20);
   border-radius: 1rem;
   margin: 0;
   padding: 0;

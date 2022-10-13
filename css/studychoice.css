@@ -7,14 +7,14 @@ body {
 }
 #h {
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Playball", sans-serif;
     font-style: bold;
     font-size: x-large;
-    color: white;
+    color: rgb(229, 228, 228);
     text-decoration-line: underline;
     text-decoration-style: wavy;
 }
 #lorem {
     text-align: center;
-    color: white;
+    color: rgb(229, 228, 228);
 }
